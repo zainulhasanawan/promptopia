@@ -39,7 +39,7 @@ function Navigation() {
         {session?.user ? (
           <div className="flex gap-3 md:gap-5">
             <Link href="/create-prompt" className="black_btn">
-              Create Prompt
+              Create Post
             </Link>
 
             <button type="button" onClick={signOut} className="outline_btn">
